@@ -1,0 +1,59 @@
+body {
+      background-color: #1b1d1e;
+    }
+    
+    .h1-title {
+        color: white;
+        font-size: 4rem;
+    }
+    
+    .h1-bt {
+        color: lightgrey;
+        font-size: 3rem;
+    }
+    
+    .p-about {
+        color: lightgrey;
+        font-size: 1.25rem;
+    }
+    
+    .h1-blogs {
+        color: lightgrey;
+        font-size: 3rem;
+    }
+    
+    .blogpost-cover-image {
+         outline: 10px solid blue;
+         border-radius: 10px;
+    }
+    
+    .blogauthor {
+        color: lightgrey;
+        font-size: 1.25rem;
+    }
+    
+    .author-img {
+        width="25";
+        height="25";
+    }
+    
+    .p-blogcontents {
+        color: lightgrey;
+        font-size: 1.25rem;
+    }
+    
+    .p-datepub {
+        color: lightgrey;
+        font-size: 1.4rem;
+    }
+    
+    .p-blog-name {
+        color: lightgrey;
+        font-size: 1.8rem;
+    }
+    
+    .link {
+        color: lightgrey;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
