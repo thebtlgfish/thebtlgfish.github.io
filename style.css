@@ -57,3 +57,23 @@ body {
     display: inline-block;
     margin: 0 30px;
 }
+
+     #custom-message {
+        position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: blue;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+            opacity: 0; /* Hidden by default */
+            transition: opacity 0.3s ease-in-out;
+            z-index: 1000;
+    }
+
+    #custom-message.show {
+            opacity: 1;
+    }
