@@ -56,9 +56,15 @@ body {
     .blog-cont > div {
     display: inline-block;
     margin: 0 30px;
-}
+    }
 
-     #custom-message {
+    .h1-link {
+        color: lightgrey;
+        font-size:3rem;
+        text-decoration: none;
+    }
+
+    #custom-message {
         position: fixed;
             bottom: 20px;
             left: 50%;
