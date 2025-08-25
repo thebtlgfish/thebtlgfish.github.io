@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <script src="prevent.js"> </script>
+    <link rel="stylesheet" href="style.css"> <link rel="icon" href="images/cat.jpeg" type="image/x-icon">
+    <head>
+        <title> Hash Decoding Explained </title>
+        <h1 class="h1-bt" align="center"> Hash Decoding Explained </h1>
+        <p class="p-datepub" align="center"> 08/25/25 </p>
+        <p class="blogauthor" align="center"> By <a class="link" href="https://andok.carrd.co" target="_blank"> @BootlegFish </a> <img src="images/cat.jpeg" width="25" height="25"> </p>
+    </head>
+    <body>
+        <p class="p-blogcontents" align="center"> Hash decoding seems impossible, right?. Well i might just prove you wrong. But before all of that, what even is a hashing algorithm?</p>
+        <br> <br>
+        <h1 class="h1-bt" align="center"> What Is A Hashing Algorithm? </h1>
+        <br>
+        <p class="p-blogcontents" align="center"> for those who dont know, a hashing algorithm is a algorithm that encodes a string of text into a long string of characters called a "Hash". Hashing is great because it is a form of one way enoding, meaning it is practically impossible to reverse engineer a hash value. However, there is a method that can be used. </p>
+        <br> <br>
+        <h1 class="h1-bt" align="center"> How People Go About Decoding Hashes </h1>
+        <br>
+        <p class="p-blogcontents" align="center"> After reading the previoius statement, you might say that this is very difficult, but it is surprisingly straightforward. First you would get a wordlist (A really big wordlist with like anywhere from 100k to 5m words). Then you would get their appropriate hash values using a script (Check out my hash decoding repo to see that script in action). You would then end up comparing the hash values and whichever ones are the same, you would know the passcode. However there is a pretty major flaw to this strategy. </p>
+        <br> <br>
+        <h1 class="h1-bt" align="center"> The Flaw / And How To Prevent This </h1>
+        <br>
+        <p class="p-blogcontents" align="center"> Peppers and Salts. Yes i know it sounds like that cannot possible be the answer but it is indeed. What a Pepper or Salt is where before the encoding process begins, you add a additional string of characters. This basically renders that previous strategy entirely useless. You could also use multiple algorithims or encode multiple times.</p>
+        <br> <br>
+        <h1 class="h1-bt" align="center"> Conclusion </h1>
+        <br>
+        <p class="p-blogcontents" align="center"> While this could potentially be a good strategy, there are still many ways to prevent it. But if we could take away anything from this, it is to always add salts and peppers. </p>
+
+
+    </body>
+</html>
