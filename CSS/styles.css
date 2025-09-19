@@ -5,42 +5,64 @@
     .h1-title {
         color: white;
         font-size: 4rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     .h1-bt {
         color: lightgrey;
         font-size: 3rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     .p-about {
         color: lightgrey;
         font-size: 1.25rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
     }
     
     .h1-blogs {
         color: lightgrey;
         font-size: 3rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     
     .blogauthor {
         color: lightgrey;
         font-size: 1.25rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     .p-blogcontents {
         color: lightgrey;
         font-size: 1.25rem;
+        opacity: 0;
+        animation: fadeIn 2s ease-in forwards;
     }
     
     .p-datepub {
         color: lightgrey;
         font-size: 1.4rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     .p-blog-name {
         color: lightgrey;
         font-size: 1.8rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
     
     .link {
@@ -58,15 +80,21 @@
     .link-blog {
         color: lightgrey;
         font-size: 1.85rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
         
     }
 
     .header {
         color: lightgrey;
         font-size: 2.4rem;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
 
     .link-header {
         color: lightgrey;
         text-decoration: none;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
     }
