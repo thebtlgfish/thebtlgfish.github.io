@@ -1,0 +1,22 @@
+
+body {
+	background-color: lightgrey;
+}
+
+.h1-title {
+	font-size: 2.5rem;
+}
+
+.p-about {
+	font-size: 1.5rem;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.desc {
+	color: black;
+	font-size: 1.25rem;
+}
