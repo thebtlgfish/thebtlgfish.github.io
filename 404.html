@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="https://thebtlgfish.github.io/CSS/styles.css">
     <script src="https://thebtlgfish.github.io/js/prevent.js"> </script>
     <link rel="icon" href="https://thebtlgfish.github.io/images/cat.jpeg" type="image/x-icon">
+
     <head>
     <meta charset="UTF-8">
     <meta name="description" content="The Official Blog Of The Bootleg Fish">
@@ -10,14 +10,56 @@
     <meta name="author" content="Bootleg Fish">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Page Not Found </title>
+    <style>
+        body {
+            background-color: black;
+            overflow: hidden;
+            color: #0F0;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .column {
+            position: absolute;
+            bottom: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                bottom: 100%;
+            }
+            100% {
+                bottom: -100%;
+            }
+        }
+
+        .h1-main {
+            font-size: 3rem;
+        }
+
+        .p {
+            font-size: 4rem;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+        
+        .link {
+            color: #0F0;
+            font-size: 1.25rem;
+            text-decoration: none;
+        }
+    </style>
     </head>
     <body>
-        <h1 align="center" class="h1-title"> Page Not Found </h1>
+        <h1 align="center" class="h1-Main"> Page Not Found </h1>
         <br> <br> <br>
-        <p align="center" class="h1-title"> 404 </p>
+        <p align="center" class="p"> 404 </p>
         
 
 
-
+    <script src="js/matrix.js"></script>
     </body>
 </html>
