@@ -1,8 +1,49 @@
 <!DOCTYPE html>
 <html>
    <script src="js/prevent.js"> </script>
-   <link rel="stylesheet" href="CSS/styles.css"> 
    <link rel="icon" href="images/cat.jpeg" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+            overflow: hidden;
+            color: #0F0;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .column {
+            position: absolute;
+            bottom: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                bottom: 100%;
+            }
+            100% {
+                bottom: -100%;
+            }
+        }
+
+        .h1-main {
+            font-size: 3rem;
+        }
+
+        .p-about {
+            font-size: 1.25rem;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+        
+        .link {
+            color: #0F0;
+            font-size: 1.25rem;
+            text-decoration: none;
+        }
+    </style>
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="The Official Blog Of The Bootleg Fish">
@@ -14,20 +55,12 @@
         <br> <br>
     </head>
     <body>
-        <p class="p-about" align="center"> Well if you have made it here to this webpage... Welcome! My name is Andrew and i am a tech nerd on the internet obbsessed with computers, coding, star wars and video games as well as ice cream. </p>
-        <br> <br>
-        <p class="p-about" align="center"> For those that do not know, I love these things about cs </p>
-        <p class="p-about" align="center">  Linux </p>
-        <p class="p-about" align="center"> Shell </p>
-        <p class="p-about" align="center"> HTML & CSS </p>
-        <p class="p-about" align="center"> Python </p>
-        <br>
-        <p class="p-about" align="center"> I am currently working on python scripting as well as automating my life as much as possible! I also enjoy video games a lot, here are some of my favorite ones! </p>
-       <br> <br>
+        <p class="p-about" align="center"> Hello There! My Name Is Andrew And I Am A CS Enthusiast And Coder Making Silly Things On The Internet! I Enjoy Coding (duh) Video Games, Star Wars, Ice Cream And Cats. Here Are Some Of The Video Games I Play: </p>
+
        <p class="p-about" align="center"> BrawlHalla (I am a casual player) </p>
        <p class="p-about" align="center"> Lego Ninjago Movie Game (this game is much better than you think) </p>
        <p class="p-about" align="center"> Kirby Return To DreamLand (has so much replay value even to this day!) </p>
-        <br> <br>
-        <p class="p-about" align="center"> I Am Mainly A Console Player! </p>
+       <p class="p-about" align="center"> Lego Harry Potter (A very good game) </p>
+        <script src="js/matrix.js"> </script>
     </body>
 </html>
